@@ -1,0 +1,248 @@
+export type Language = 'pt' | 'en';
+
+export const translations = {
+  pt: {
+    // Top Nav & Shell
+    gameTitle: 'BOMB FARM',
+    tagline: 'O RPG Idle de Mineração & Esquadrão Bomba',
+    play: 'JOGAR',
+    startMining: 'EXPLORAR MINA',
+    pause: 'PAUSADO',
+    resume: 'CONTINUAR',
+    settings: 'CONFIGURAÇÕES',
+    mute: 'MUDO',
+    unmute: 'SOM',
+    language: 'IDIOMA',
+    controlsHint: 'WASD / Setas Navegar · Espaço Mega-Bomba · 1-3 Trocar Equipe · Esc Pausa',
+
+    // HUD
+    world: 'Mundo',
+    stage: 'Fase',
+    bossStage: 'MONÓLITO CHEFE',
+    dps: 'DPS da Mina',
+    coins: 'Moedas Steam',
+    gems: 'Gemas Cósmicas',
+    autoDetonator: 'AUTO-DETONADOR',
+    manualMegaBomb: 'MEGA-BOMBA SÍSMICA',
+    cooldown: 'Recarga',
+    ready: 'PRONTO',
+    nextStage: 'PRÓXIMA FASE',
+    prevStage: 'FASE ANTERIOR',
+
+    // Squads
+    squadAlpha: 'Esquadrão Alfa',
+    squadBeta: 'Esquadrão Beta',
+    squadGamma: 'Esquadrão Gama',
+    squads: 'Esquadrão',
+    roles: {
+      striker: 'Atacante',
+      support: 'Suporte',
+      harvester: 'Coletor',
+      specialist: 'Especialista',
+    },
+    roleDescriptions: {
+      striker: 'Causa alto dano explosivo e acertos críticos massivos em rochas duras.',
+      support: 'Aumenta a velocidade de movimento de toda a equipe e regenera energia.',
+      harvester: 'Multiplica os drops de minérios, gemas raras e atrai loots magneticamente.',
+      specialist: 'Aplica bombas elementais (Queimadura de Fogo, Gelo Lento e Buraco Negro).',
+    },
+    heroLevel: 'Nível',
+    heroPower: 'Poder de Fogo',
+    skillLevel: 'Habilidade Nv.',
+    upgradeSkill: 'Evoluir Habilidade',
+    maxLevel: 'NÍVEL MÁXIMO',
+    passiveBonus: 'Bônus Passivo',
+
+    // Forge
+    forgeTitle: 'Forja Arcana',
+    forgeSubtitle: 'Melhore equipamentos de +0 até +15 e funda duplicatas para estrelas',
+    upgradeItem: 'Aprimorar (+1)',
+    fuseDuplicate: 'Fundir Estrela (+★)',
+    rerollAffixes: 'Rolar Atributos',
+    successChance: 'Chance de Sucesso',
+    forgeCost: 'Custo da Forja',
+    stars: 'Estrelas',
+    affixes: 'Atributos Adicionais',
+    itemRarity: {
+      common: 'Comum',
+      uncommon: 'Incomum',
+      rare: 'Raro',
+      epic: 'Épico',
+      legendary: 'Lendário',
+      mythic: 'Mítico',
+    },
+    forgeSuccess: 'FORJA BEM-SUCEDIDA!',
+    forgeFailure: 'FALHA NA FORJA (Item protegido)',
+
+    // Skill Tree
+    skillTreeTitle: 'Árvore de Habilidades',
+    skillTreeSubtitle: 'Constelação de bônus globais para todo o esquadrão de mineração',
+    skillPointsAvailable: 'Pontos de Habilidade Disponíveis',
+    allocateNode: 'Desbloquear Nó',
+    allocated: 'Desbloqueado',
+    locked: 'Bloqueado (Requer nós anteriores)',
+    resetTree: 'Redefinir Árvore',
+
+    // Market
+    marketTitle: 'Mercado da Comunidade Steam',
+    marketSubtitle: 'Negocie minérios, relíquias seladas e gemas com flutuação de preços em tempo real',
+    marketWallet: 'Saldo da Carteira',
+    buy: 'Comprar',
+    sell: 'Vender',
+    currentPrice: 'Preço Atual',
+    priceTrend24h: 'Tendência 24h',
+    volume: 'Volume',
+    buyOrder: 'Ordem de Compra',
+    sellOrder: 'Ordem de Venda',
+    tradeHistory: 'Transações Recentes',
+    inventory: 'Seu Inventário',
+
+    // Worlds
+    worlds: {
+      w1: 'Minas de Carvão & Pedra',
+      w2: 'Caverna de Cristais de Fogo',
+      w3: 'Profundezas de Ametista & Gelo',
+      w4: 'Núcleo Vulcânico Mecânico',
+      w5: 'Abismo Cósmico Dimensional',
+    },
+
+    // Offline progress
+    welcomeBack: 'BEM-VINDO DE VOLTA!',
+    offlineTitle: 'Progresso da Mineração Offline',
+    offlineSummary: 'Seu esquadrão continuou explodindo rochas enquanto você esteve ausente.',
+    timePassed: 'Tempo Decorrido',
+    oresFarmed: 'Minérios Coletados',
+    coinsEarned: 'Moedas Ganhas',
+    claimRewards: 'COLETAR RECOMPENSAS',
+
+    // Buttons & Tabs
+    tabMine: 'Mina',
+    tabSquad: 'Esquadrão',
+    tabForge: 'Forja',
+    tabSkillTree: 'Talentos',
+    tabMarket: 'Mercado',
+    tabWorldMap: 'Mundos',
+  },
+  en: {
+    // Top Nav & Shell
+    gameTitle: 'BOMB FARM',
+    tagline: 'Idle Mining RPG & Squad Detonator',
+    play: 'PLAY NOW',
+    startMining: 'ENTER MINES',
+    pause: 'PAUSED',
+    resume: 'RESUME',
+    settings: 'SETTINGS',
+    mute: 'MUTE',
+    unmute: 'SOUND',
+    language: 'LANGUAGE',
+    controlsHint: 'WASD / Arrows Roam · Space Mega-Bomb · 1-3 Swap Squad · Esc Pause',
+
+    // HUD
+    world: 'World',
+    stage: 'Stage',
+    bossStage: 'BOSS MONOLITH',
+    dps: 'Mine DPS',
+    coins: 'Steam Coins',
+    gems: 'Cosmic Gems',
+    autoDetonator: 'AUTO-DETONATOR',
+    manualMegaBomb: 'SEISMIC MEGA-BOMB',
+    cooldown: 'Cooldown',
+    ready: 'READY',
+    nextStage: 'NEXT STAGE',
+    prevStage: 'PREV STAGE',
+
+    // Squads
+    squadAlpha: 'Squad Alpha',
+    squadBeta: 'Squad Beta',
+    squadGamma: 'Squad Gamma',
+    squads: 'Squads',
+    roles: {
+      striker: 'Striker',
+      support: 'Support',
+      harvester: 'Harvester',
+      specialist: 'Specialist',
+    },
+    roleDescriptions: {
+      striker: 'Deals massive explosive burst damage and critical strikes on dense minerals.',
+      support: 'Boosts entire team movement speed, blast radii, and energy reserves.',
+      harvester: 'Multiplies ore yields, pulls minerals magnetically, and boosts luck.',
+      specialist: 'Deploys elemental bombs (Fire Burn, Cryo Freeze, and Void Singularities).',
+    },
+    heroLevel: 'Level',
+    heroPower: 'Firepower',
+    skillLevel: 'Skill Lv.',
+    upgradeSkill: 'Upgrade Skill',
+    maxLevel: 'MAX LEVEL',
+    passiveBonus: 'Passive Bonus',
+
+    // Forge
+    forgeTitle: 'Arcane Forge',
+    forgeSubtitle: 'Upgrade gear from +0 to +15 and fuse duplicate pieces for stars',
+    upgradeItem: 'Upgrade (+1)',
+    fuseDuplicate: 'Fuse Star (+★)',
+    rerollAffixes: 'Reroll Affixes',
+    successChance: 'Success Rate',
+    forgeCost: 'Forge Cost',
+    stars: 'Stars',
+    affixes: 'Bonus Affixes',
+    itemRarity: {
+      common: 'Common',
+      uncommon: 'Uncommon',
+      rare: 'Rare',
+      epic: 'Epic',
+      legendary: 'Legendary',
+      mythic: 'Mythic',
+    },
+    forgeSuccess: 'FORGE SUCCESSFUL!',
+    forgeFailure: 'FORGE FAILED (Item Protected)',
+
+    // Skill Tree
+    skillTreeTitle: 'Passive Skill Tree',
+    skillTreeSubtitle: 'PoE-inspired web granting squad-wide demolition perks',
+    skillPointsAvailable: 'Available Skill Points',
+    allocateNode: 'Unlock Node',
+    allocated: 'Unlocked',
+    locked: 'Locked (Requires preceding nodes)',
+    resetTree: 'Reset Tree',
+
+    // Market
+    marketTitle: 'Steam Community Market',
+    marketSubtitle: 'Trade raw minerals, sealed relics, and gems with simulated price dynamics',
+    marketWallet: 'Wallet Balance',
+    buy: 'Buy',
+    sell: 'Sell',
+    currentPrice: 'Current Price',
+    priceTrend24h: '24h Trend',
+    volume: 'Volume',
+    buyOrder: 'Buy Order',
+    sellOrder: 'Sell Order',
+    tradeHistory: 'Recent Transactions',
+    inventory: 'Your Inventory',
+
+    // Worlds
+    worlds: {
+      w1: 'Coal & Stone Mines',
+      w2: 'Fire Crystal Caverns',
+      w3: 'Amethyst & Frost Depths',
+      w4: 'Volcanic Core Engine',
+      w5: 'Dimensional Void Abyss',
+    },
+
+    // Offline progress
+    welcomeBack: 'WELCOME BACK!',
+    offlineTitle: 'Offline Mining Progress',
+    offlineSummary: 'Your demolition squad kept blasting while you were away.',
+    timePassed: 'Elapsed Time',
+    oresFarmed: 'Ores Blasted',
+    coinsEarned: 'Coins Earned',
+    claimRewards: 'CLAIM LOOT',
+
+    // Buttons & Tabs
+    tabMine: 'Mine',
+    tabSquad: 'Squad',
+    tabForge: 'Forge',
+    tabSkillTree: 'Talents',
+    tabMarket: 'Market',
+    tabWorldMap: 'Worlds',
+  },
+};

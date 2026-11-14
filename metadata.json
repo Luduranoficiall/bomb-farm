@@ -1,0 +1,6 @@
+{
+  "name": "Bomb Farm - Idle Mining RPG",
+  "description": "Um RPG idle onde seu esquadrão de bombardeiros farma por você. Exploda rochas, cace loots raros, forje equipamentos até +15, domine uma enorme árvore de habilidades e negocie no Mercado Steam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
